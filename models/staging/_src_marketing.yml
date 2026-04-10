@@ -1,0 +1,74 @@
+sources:
+  - name: marketing
+    description: A clone of a BigQuery database.
+    database: project-076b9d6f-6c7e-4407-887
+    schema: marketing
+    tables:
+      - name: marketing_spend
+        description: Raw marketing spend data.
+        columns:
+          - name: date
+            description: Primary key
+            data_tests:
+              - unique
+              - not_null
+          - name: paid_search_spend
+            data_tests:
+              - not_null
+          - name: paid_social_spend
+            data_tests:
+              - not_null
+          - name: display_spend
+            data_tests:
+              - not_null
+          - name: email_spend
+            data_tests:
+              - not_null
+          - name: affiliate_spend
+            data_tests:
+              - not_null
+          - name: tv_spend
+            data_tests:
+              - not_null
+              
+      - name: revenue
+        description: Raw revenue data.
+        columns:
+          - name: date
+            description: Primary key
+            data_tests:
+              - unique
+              - not_null
+          - name: revenue
+            data_tests:
+              - not_null            
+          - name: transactions
+            data_tests:
+              - not_null          
+          - name: new_customers
+            data_tests:
+              - not_null          
+
+      - name: external_factors
+        description: Raw external factors data.
+        columns: 
+          - name: date
+            description: Primary key
+            data_tests:
+              - unique
+              - not_null
+          - name: is_weekend
+            data_tests:
+              - not_null          
+          - name: is_holiday
+            data_tests:
+              - not_null          
+          - name: promotion_active
+            data_tests:
+              - not_null          
+          - name: competitor_index
+            data_tests:
+              - not_null          
+          - name: seasonality_index  
+            data_tests:
+              - not_null 
