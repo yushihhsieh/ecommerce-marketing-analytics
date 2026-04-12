@@ -46,12 +46,16 @@ The transformation follows a layered approach:
 
 Below is the overview page from the dashboard and more examples are included throughout the report. The entire interactive dashboard can be downloaded [here](https://lookerstudio.google.com/s/rxmZ-KoUJf4).
 
+<img width="1075" height="472" alt="Screenshot 2026-04-12 at 18 35 18" src="https://github.com/user-attachments/assets/fce896a9-c2b5-4587-9c1f-288485923230" />
+
 
 
 ### Exploratory Analysis:
 - Stable spend vs variable revenue: Spend remains relatively stable across the period with occasional spikes driven by campaign activity. Revenue does not consistently scale with spend, indicating varying efficiency over time.
 - Temporal performance variability: Despite stable spend distribution (most days between 10K-11.7K), performance varies significantly across time. Highlighting strong temporal effects such as seasonality and promotions.
 - Day-of-week patterns: Clear performance differences between weekdays and weekends, indicating user behavior shifts depending on time of week.
+
+<img width="1076" height="605" alt="Screenshot 2026-04-12 at 18 35 51" src="https://github.com/user-attachments/assets/c7c221c5-a1f5-41c6-b17e-20a5d6b2dd14" />
 
 
 
@@ -61,12 +65,16 @@ Below is the overview page from the dashboard and more examples are included thr
 - Top and bottom performing channels: Paid Social generates the highest total attributed revenue (30-day), however, email contributes less to overall revenue.
 - Performance sensitivity to external factors: Channel efficiency varies across: promotional vs non-promotional periods and weekend vs weekday.
 
+<img width="1075" height="608" alt="Screenshot 2026-04-12 at 18 36 15" src="https://github.com/user-attachments/assets/b402578b-6d49-43f9-8bb6-77e1e5337151" />
+
+
 
 ### Budget Optimization:
 - Spending Patterns: Paid Social has the most consistent spend (CV ~0.129), while TV shows the highest variability (CV ~0.131).
 - Efficiency curves: Efficiency curves reveal diminishing returns across channels, with peak ROAS occurring at mid-level spend ranges rather than at maximum investment levels.
 - Budget Reallocation: Reallocate budget from over-invested channels such as Paid Search and Paid Social toward higher-efficiency channels like Display and Email.
 
+<img width="1067" height="598" alt="Screenshot 2026-04-12 at 18 36 39" src="https://github.com/user-attachments/assets/102ee2b0-0586-410b-bd9d-e13bad98e445" />
 
 
 
