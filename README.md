@@ -27,7 +27,7 @@ The project uses three core datasets:
 
 Prior to beginning the analysis, a variety of checks were conducted for missing/null value validation, date continuity checks and outlier detection. The SQL queries used to inspect and perform quality checks can be found [not_null_and_unique](https://github.com/yushihhsieh/ecommerce-marketing-analytics/blob/c0268da970caec0f671c15b513b5152d8f0232d7/models/staging/_src_marketing.yml), [date_gap](https://github.com/yushihhsieh/ecommerce-marketing-analytics/blob/c0268da970caec0f671c15b513b5152d8f0232d7/tests/assert_date_gaps_for_marketing.sql).
 
-The **transformation** follows a layered approach:
+The **transformation** follows a layered approach in **dbt**:
 - **Staging**: data cleaning and standardization
 - **Intermediate**: metric calculations and joins
 - **Marts**: business-level models (fct tables)
