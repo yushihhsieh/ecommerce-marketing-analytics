@@ -20,7 +20,7 @@ An interactive dashboard used to report and explore sales trends can be found he
 ## Data Structure & Initial Checks
 The company's main database structure as seen below consists of three tables: marketing_spend, revenue, external_table, with a total row count of 730 records. 
 
-<img width="1920" height="1080" alt="marketing_spend (2)" src="https://github.com/user-attachments/assets/1a24b73e-3116-43b4-8f7d-094ba067c1cd" />
+<img width="1920" height="1080" alt="marketing_spend (4)" src="https://github.com/user-attachments/assets/e8fc5f52-842a-4460-84d8-b4c327ceb332" />
 
 
 
