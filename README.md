@@ -12,7 +12,9 @@ Insights and recommendations are provided on the following key areas:
 - Budget Optimization: Spending patterns and variability. Efficiency curve using spend deciles to detect diminishing returns. Budget reallocation strategy based on channel efficiency and expected revenue uplift. 
 
 The SQL queries used to inspect and clean the data for this analysis can be found here [link](https://github.com/yushihhsieh/ecommerce-marketing-analytics/tree/c0268da970caec0f671c15b513b5152d8f0232d7/models/staging).
+
 Targeted SQL queries regarding various business questions can be found here [link](https://github.com/yushihhsieh/ecommerce-marketing-analytics/tree/c0268da970caec0f671c15b513b5152d8f0232d7/models/marts).
+
 An interactive dashboard used to report and explore sales trends can be found here [link](https://lookerstudio.google.com/s/hyPDRon2-Fg).
 
 ### Data Structure & Initial Checks
