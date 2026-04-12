@@ -32,6 +32,8 @@ The transformation follows a layered approach:
 - Intermediate: metric calculations and joins
 - Marts: business-level models (fct tables)
 
+<img width="1373" height="459" alt="Screenshot 2026-04-12 at 17 48 22" src="https://github.com/user-attachments/assets/e82922cd-671d-4256-b1d7-6ad8551cbb49" />
+
 
 
 ### Executive Summary
