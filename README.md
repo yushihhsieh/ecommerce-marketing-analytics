@@ -19,10 +19,7 @@ An interactive dashboard used to report and explore sales trends can be found he
 
 ## Data Structure & Initial Checks
 The company's main database structure as seen below consists of three tables: marketing_spend, revenue, external_table, with a total row count of 730 records. 
-
 <img width="1920" height="1080" alt="marketing_spend (4)" src="https://github.com/user-attachments/assets/e8fc5f52-842a-4460-84d8-b4c327ceb332" />
-
-
 
 Prior to beginning the analysis, a variety of checks were conducted for missing/null value validation, date continuity checks and outlier detection. The SQL queries used to inspect and perform quality checks can be found [not_null_and_unique](https://github.com/yushihhsieh/ecommerce-marketing-analytics/blob/c0268da970caec0f671c15b513b5152d8f0232d7/models/staging/_src_marketing.yml), [date_gap](https://github.com/yushihhsieh/ecommerce-marketing-analytics/blob/c0268da970caec0f671c15b513b5152d8f0232d7/tests/assert_date_gaps_for_marketing.sql).
 
